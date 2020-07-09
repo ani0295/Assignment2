@@ -1,0 +1,50 @@
+<html>  
+<head>  
+<title>success</title> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+</head>  
+<style>
+table, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+ td {
+  padding: 5px;
+  text-align: left;
+}
+</style>
+<body >  
+<h1 align='center'> List Of Files </h1>
+
+<div class="container">
+<table align='center' class="table table-striped">
+<thead>
+    <tr>
+      <th scope="col">File Names</th>
+    </thead>
+<!-- <th> File Names </th> -->
+{%for i in name%}
+<tr>
+<td>
+{{i}}
+<div style = "float:right">
+ <a href="/return-files/{{i}}" target="blank"><button class='btn btn-default' style="background-color:#4CAF50">Download</button></a>
+<a href="return-fil/{{i}}" target="_blank"><button class='btn btn-default' style="background-color: #008CBA">View</button></a>
+  
+<!-- <button type="button">View</button> -->
+</div>
+</td>  
+</tr>
+{% endfor %}
+
+</div>
+</table>
+
+
+</body>  
+</html>  
+

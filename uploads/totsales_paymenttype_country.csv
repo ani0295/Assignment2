@@ -1,0 +1,29 @@
+Payment_Type,Country,Price
+Amex,Australia,1200.0
+Amex,Belgium,1200.0
+Amex,Kuwait,1200.0
+Amex,United States,8400.0
+Diners,Canada,2400.0
+Diners,Germany,1200.0
+Diners,Ireland,1200.0
+Diners,Netherlands,1200.0
+Diners,United Kingdom,1200.0
+Diners,United States,2400.0
+Mastercard,Canada,2400.0
+Mastercard,Denmark,1200.0
+Mastercard,Germany,2400.0
+Mastercard,Ireland,7500.0
+Mastercard,Netherlands,3600.0
+Mastercard,United Kingdom,1200.0
+Mastercard,United States,26400.0
+Visa,Australia,1200.0
+Visa,Bahrain,1200.0
+Visa,Canada,4800.0
+Visa,France,4800.0
+Visa,Germany,3600.0
+Visa,Norway,1200.0
+Visa,South Africa,1200.0
+Visa,Switzerland,4800.0
+Visa,Turkey,2400.0
+Visa,United Kingdom,10800.0
+Visa,United States,52800.0

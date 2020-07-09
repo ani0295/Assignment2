@@ -1,0 +1,118 @@
+<!-- <html>
+    <title>Upload new File</title>
+    <h1>Upload new File</h1>
+    <form action="" method=post enctype=multipart/form-data>
+      <p><input type=file name=file>
+         <input type=submit value=Upload>
+    </form>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Zreyas | Document Bank </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<!-- <link href="style.css" rel="stylesheet"> -->
+	<!-- <script src='jquery.csv.js'></script> -->
+</head>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+<div class="container-fluid">
+	<a class="navbar-brand" href="#"><img src=""></a>
+	<h1> Document Bank </h1>
+</div>
+</nav>
+
+
+<!--- Welcome Section -->
+<div class="container-fluid padding"  style="background-color:black">
+	<div class="row welcome text-center" style="background-color:black">
+		<div class="col-12" >
+			<h1 class="display-4">Keep Document Safe</h1>
+		</div>
+		<hr>
+		<div class="col-12">
+			<p class="lead">Welcome to Zreyas's Document Bank</p>
+			<p class="lead">Just upload the document you want to keep in the bank</p>
+			<p class="lead">We Will Take Care Of The Rest</p>
+		</div>
+	</div>
+</div>
+
+
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body>
+
+<h2 style="text-align:center">Select a file to upload</h2> 
+
+
+
+ <div style="text-align: center;">
+ <div style="width: 500px; margin: 0 auto; background: #000; color: #fff;">
+      <form action = "" method = "post" enctype="multipart/form-data">  
+        <input type="file" name="file" />  
+        <input type = "submit" value="Upload">  
+    </form>  
+     <form action = "/view" method = "get" enctype="multipart/form-data">  
+        
+        <input type = "submit" value="Show">  
+    </form>  
+	</div>
+</div>
+
+ 
+ <div class="container-fluid padding">
+<div class="row text-center padding">
+	<div class="col-12">
+		<h1 class="display-4">Connect</h1>
+	</div>
+	<div class="col-12 social padding">
+		<a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+		<a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+		<a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+		<a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+		<a href="#"><i class="fab fa-vimeo" aria-hidden="true"></i></a>
+	</div>
+</div>
+</div>
+
+</body>
+</html>
